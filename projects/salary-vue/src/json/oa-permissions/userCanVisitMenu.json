@@ -1,0 +1,264 @@
+{
+    "IsSuccess": true,
+    "Message": "查询成功",
+    "Data": [{
+        "html": "薪资系统",
+        "href": "/html/hrsystem/leftMenu.html?name\u003d薪资系统",
+        "modlesId": "12c5cb4142cd43138193b507496e5a61",
+        "iconUrl": "ion-flag",
+        "helpClass": "xzxt",
+        "helpChild": "薪资",
+        "arrow": [{
+                "html": "个人中心",
+                "href": "#",
+                "modlesId": "6a4c244653dd40cca22a5d2ae16970b8",
+                "iconUrl": "",
+                "helpClass": "grzx",
+                "helpChild": "",
+                "arrow": [{
+                        "html": "我的工资条",
+                        "href": "http://172.31.18.22:8080/#/home/personalCenter/mySalary",
+                        "modlesId": "cd3fd12fdfa04f23b9a72aefb394a96f",
+                        "iconUrl": "",
+                        "helpClass": "wdgzt",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 1
+                    },
+                    {
+                        "html": "业绩查询",
+                        "href": "http://172.31.18.22:8080/#/home/personalCenter/performanceQuery",
+                        "modlesId": "fa3c7d489f2e4fa2bcf2d07d12f7df88",
+                        "iconUrl": "",
+                        "helpClass": "yjcx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 2
+                    }
+                ],
+                "modelsOrder": 2
+            },
+            {
+                "html": "行政系统",
+                "href": "#",
+                "modlesId": "0f3178fd878c441e8cce967675d4ab53",
+                "iconUrl": "",
+                "helpClass": "xzxt",
+                "helpChild": "",
+                "arrow": [{
+                        "html": "行政扣款项",
+                        "href": "http://172.31.18.22:8080/#/home/administrativeSystem/administrativeDed",
+                        "modlesId": "93da195fa3684748983865a5279623f6",
+                        "iconUrl": "",
+                        "helpClass": "xzkkx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 1
+                    },
+                    {
+                        "html": "住宿扣款项",
+                        "href": "http://172.31.18.22:8080/#/home/administrativeSystem/dormitoryDed",
+                        "modlesId": "6adea53c0461469489f554a0260c7181",
+                        "iconUrl": "",
+                        "helpClass": "zskkx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 2
+                    },
+                    {
+                        "html": "考勤扣款项",
+                        "href": "http://172.31.18.22:8080/#/home/administrativeSystem/attendanceDed",
+                        "modlesId": "642c669efdd84cdba5a0870b51cfc337",
+                        "iconUrl": "",
+                        "helpClass": "kqkkx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 3
+                    }
+                ],
+                "modelsOrder": 3
+            },
+            {
+                "html": "财务系统",
+                "href": "",
+                "modlesId": "1a8bf4c98453499582eb48124dab975c",
+                "iconUrl": "",
+                "helpClass": "cwxt",
+                "helpChild": "",
+                "arrow": [{
+                        "html": "数据汇总台账",
+                        "href": "http://172.31.18.22:8080/#/home/financialSystem/dataSummary",
+                        "modlesId": "e6b9b7f26e914890a336a1eeeddc7f32",
+                        "iconUrl": "",
+                        "helpClass": "sjhztz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 1
+                    },
+                    {
+                        "html": "绩效公式管理",
+                        "href": "http://172.31.18.22:8080/#/home/financialSystem/formulaManage",
+                        "modlesId": "334134d935c042a39e120f6464e18ce3",
+                        "iconUrl": "",
+                        "helpClass": "jxgsgl",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 2
+                    },
+                    {
+                        "html": "借支管理",
+                        "href": "http://172.31.18.22:8080/#/home/financialSystem/loanPayManage",
+                        "modlesId": "587ea2715044402a9b134c47a906c8d7",
+                        "iconUrl": "",
+                        "helpClass": "jzgl",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 3
+                    },
+                    {
+                        "html": "个税管理",
+                        "href": "http://172.31.18.22:8080/#/home/financialSystem/personalTaxManage",
+                        "modlesId": "8070fa8c7ba940368be49449edbfb01d",
+                        "iconUrl": "",
+                        "helpClass": "gsgl",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 4
+                    }
+                ],
+                "modelsOrder": 4
+            },
+            {
+                "html": "公共系统",
+                "href": "",
+                "modlesId": "f5dc68613d384363a2dcd1403ddda87f",
+                "iconUrl": "",
+                "helpClass": "ggxt",
+                "helpChild": "",
+                "arrow": [{
+                        "html": "调整款项管理",
+                        "href": "http://172.31.18.22:8080/#/home/publicSystem/adjustMoneyManage",
+                        "modlesId": "9cb8f54be2d44b28b28474b23e3f71d1",
+                        "iconUrl": "",
+                        "helpClass": "tzxgl",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 1
+                    },
+                    {
+                        "html": "特殊绩效",
+                        "href": "http://172.31.18.22:8080/#/home/publicSystem/specialPerformance",
+                        "modlesId": "de634029dfc44bd8b00478bdf838764c",
+                        "iconUrl": "",
+                        "helpClass": "tsjx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 2
+                    }
+                ],
+                "modelsOrder": 5
+            },
+            {
+                "html": "人事系统",
+                "href": "",
+                "modlesId": "e6a97171dd12475daa1207aac4ad065c",
+                "iconUrl": "",
+                "helpClass": "rsxt",
+                "helpChild": "",
+                "arrow": [{
+                        "html": "未配置基础薪资",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/noConfig",
+                        "modlesId": "6d84164987d445c8b579f614e5456516",
+                        "iconUrl": "",
+                        "helpClass": "wpzjcxz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 1
+                    },
+                    {
+                        "html": "基础薪资总表",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/summaryTables",
+                        "modlesId": "38413eb548254c7b873a02fd38b45355",
+                        "iconUrl": "",
+                        "helpClass": "jcxzzb",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 2
+                    },
+                    {
+                        "html": "基础薪资初始设置",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/initSetup",
+                        "modlesId": "c4daff8cfb0b4d36b7889d69956d00c5",
+                        "iconUrl": "",
+                        "helpClass": "jcxzcssz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 3
+                    },
+                    {
+                        "html": "人事收入项",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/subsidy",
+                        "modlesId": "ce4d0ce643684882aabc3d3d75bad193",
+                        "iconUrl": "",
+                        "helpClass": "sssrx",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 4
+                    },
+                    {
+                        "html": "收入项设置",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/incomeItemsSetting",
+                        "modlesId": "d24829cc4ece4da49a5ccde7b031e91e",
+                        "iconUrl": "",
+                        "helpClass": "srxsz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 5
+                    },
+                    {
+                        "html": "五险一金",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/fiveSocialDed",
+                        "modlesId": "cb0ebf7fe3e74c95b70e3a4efc51cf6e",
+                        "iconUrl": "",
+                        "helpClass": "wxyz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 6
+                    },
+                    {
+                        "html": "绩效工资",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/performanceDed",
+                        "modlesId": "e3d02040cae54da1a16e665f3b0e4fba",
+                        "iconUrl": "",
+                        "helpClass": "jxgz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 7
+                    },
+                    {
+                        "html": "孝敬费管理",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/filialPietyFee",
+                        "modlesId": "a810b56729d540cc941cb817f7d0aa8f",
+                        "iconUrl": "",
+                        "helpClass": "xjfgl",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 8
+                    },
+                    {
+                        "html": "培训补助",
+                        "href": "http://172.31.18.22:8080/#/home/personnelSystem/trainSubsidy",
+                        "modlesId": "c521953404f64c2db7aeedeb78ebd354",
+                        "iconUrl": "",
+                        "helpClass": "pxbz",
+                        "helpChild": "",
+                        "arrow": [],
+                        "modelsOrder": 9
+                    }
+                ],
+                "modelsOrder": 6
+            }
+        ],
+        "modelsOrder": 14
+    }]
+}

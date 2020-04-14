@@ -1,0 +1,52 @@
+{
+    "name": "salary-vue",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "npm run serve",
+        "serve": "vue-cli-service serve",
+        "test": "vue-cli-service build --mode test",
+        "build": "vue-cli-service build",
+        "pre": "cross-env NODE_ENV=pre vue-cli-service build --mode pre",
+        "dev": "cross-env NODE_ENV=dev vue-cli-service build --mode dev",
+        "analyz:start": "cross-env use_analyz=true npm start",
+        "analyz:serve": "cross-env use_analyz=true npm run serve",
+        "analyz:test": "cross-env use_analyz=true npm run test",
+        "analyz:build": "cross-env NODE_ENV=production use_analyz=true npm run build",
+        "analyz:pre": "cross-env NODE_ENV=pre use_analyz=true npm run pre",
+        "analyz:dev": "cross-env NODE_ENV=dev use_analyz=true npm run dev",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "core-js": "^2.6.5",
+        "element-ui": "^2.8.2",
+        "lodash": "^4.17.13",
+        "moment": "^2.24.0",
+        "superagent": "^5.1.0",
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vuex": "^3.0.1",
+        "wangeditor": "^3.1.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.5.0",
+        "@vue/cli-plugin-eslint": "^3.5.0",
+        "@vue/cli-service": "^3.5.0",
+        "axios": "^0.18.0",
+        "babel-eslint": "^10.0.1",
+        "babel-plugin-component": "^1.1.1",
+        "bootstrap": "^3.4.1",
+        "cross-env": "^5.2.0",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "less": "^3.9.0",
+        "less-loader": "^5.0.0",
+        "mockjs": "^1.0.1-beta3",
+        "qs": "^6.7.0",
+        "vue-axios": "^2.1.4",
+        "vue-cli-plugin-element": "^1.0.1",
+        "vue-simple-uploader": "^0.7.1",
+        "vue-template-compiler": "^2.5.21",
+        "webpack-bundle-analyzer": "^3.4.1"
+    }
+}

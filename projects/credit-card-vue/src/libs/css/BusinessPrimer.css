@@ -1,0 +1,59 @@
+/*业务入门公用样式、包括内页*/
+.mar-no{margin:0!important}.mar-all{margin:15px}.mar-top{margin-top:15px}.mar-btm{margin-bottom:15px}.mar-lft{margin-left:15px}.mar-rgt{margin-right:15px}.mar-hor{margin-left:15px;margin-right:15px}.mar-ver{margin-top:15px;margin-bottom:15px}
+.pad-no{padding:0!important}.pad-all{padding:15px}.pad-top{padding-top:15px}.pad-btm{padding-bottom:15px}.pad-lft{padding-left:15px}.pad-rgt{padding-right:15px}.pad-hor{padding-left:15px;padding-right:15px}.pad-ver{padding-top:15px;padding-bottom:15px}
+
+.none{display: none}
+.page-content{position: relative}
+.flexwrap,.item_list,.talkBox li{position: relative;display: -webkit-box;display: -webkit-flex;display: flex; }
+.flexwrap{overflow-y: auto}
+.listRgt{width: 480px;}
+@media only screen and (width:1024px){
+    .listRgt{width: 335px;}
+}
+.listLft,.txt_wrap,.talkItem{ -webkit-box-flex: 1;-webkit-flex: 1;flex: 1;}
+.listWrap,.mainHelp{background-color: #fff}
+.moreList{border-bottom: 1px solid #cccccc;font-size: 16px;font-weight: normal;line-height: 30px;margin: 0}
+.moreList i{border-right:2px #bcd0fe solid;display: inline-block;height: 17px;width: 4px;background: #74a3f6;vertical-align: middle;margin-right: 10px}
+.moreList a{float: right;font-size: 14px;}
+
+/*点赞数、点击量*/
+.Txtstatus a{color: #6d798d;}
+.Txtstatus i{background: url("../../images/creditHelp.png") no-repeat;padding-left: 20px;margin-left: 20px;}
+.Txtstatus .seeI{background-position: 0px -50px;}
+.Txtstatus .niceI{background-position: 0px -82px;}
+.Txtstatus .talkI{background-position: 0px -110px;}
+.Txtstatus .niceZan{background:url(../../images/zan.png) no-repeat;background-size: 14px;color:#467cfd }
+
+/*案例详情页*/
+.mainHelp {min-height:100%;}
+.mainHelp .moreList{border-bottom: none}
+.pathnav{font-size: 14px;color: #6d798d}
+.returnList{font-size: 14px;color: #2e76ee;padding: 0px 10px;border: 1px solid #2e76ee;border-radius: 5px;float: right;line-height: 30px}
+.helpwrap h2{font-size: 26px;color: #222;margin-bottom: 15px}
+.helpBeizhu{font-size: 14px;color: #6d798d}
+.helpTxt{padding-top: 30px;padding-bottom: 50px;border-bottom: 1px solid #ccc}
+.helpTxt p{font-size: 14px;color: #555555;text-indent: 2em;line-height: 26px;margin-bottom: 0px;}
+.helpImg {width: 430px;margin: 15px auto}
+.helpImg img{width: 430px;}
+.nextTxt li{list-style: none;height: 32px;line-height: 32px;font-size: 14px;color: #111}
+.nextTxt li a{color: #111;}
+.putBtn{background: #2e76ee;border: none;color: #fff;font-size: 16px;font-weight: bold;width: 120px;height: 40px;line-height: 40px;border-radius: 5px}
+/*右侧经典案例*/
+.examRgt,.examRgt img{width: 100%;}
+.examRgt{margin-top: 15px}
+.examList{padding-left: 0px;margin-top: 10px;}
+.examList li{height: 32px;line-height:32px;font-size: 14px;list-style: none}
+.examList li a{color: #111}
+.examList li:first-child a{font-weight: bold}
+.examList li span{width: 16px;height: 16px;display: inline-block;vertical-align: middle;background: #aaaaaa;line-height: 16px;text-align: center;margin-right: 5px;color: #fff}
+.examList li:first-child span,.examList li:nth-child(2) span,.examList li:nth-child(3) span{background: #ff5454}
+/*右侧经典话术,法律法规*/
+.talkBox{padding-left: 0px;}
+.talkBox li,.roleList li{line-height: 24px;margin-bottom: 10px;color: #6d798d;list-style: none}
+.talkBox li a,.roleList li a{color: #6d798d;}
+.talkBox li:hover,.talkBox li:hover a,.roleList li:hover,.roleList li:hover a{color: #2e76ee}
+.talkTime{width: 80px;}
+/*右侧法律法规*/
+.roleList{padding-left: 0px;padding-top: 15px;margin-top: 4px}
+.roleList li{overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+/* .roleList li span{font-size: 14px;color: #467cfd;vertical-align: middle;background: #dae5ff;padding: 2px 4px;margin-right: 10px;border-radius: 5px} */

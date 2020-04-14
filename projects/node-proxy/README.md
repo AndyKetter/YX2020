@@ -1,0 +1,3 @@
+# node-proxy
+
+该项目基于nodejs的http代理中间件http-proxy-middleware,用express框架做服务,旨在在开发本地调试oa项目完全取代nginx做本地代理，这样对于前端来说，就不需要再去熟悉nginx配置了，该配置与vue-clic3中vue.config.js中proxy配置基本一样的写法。

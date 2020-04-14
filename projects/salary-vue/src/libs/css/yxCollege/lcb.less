@@ -1,0 +1,79 @@
+.height {
+    height: 100% !important;
+}
+
+.width {
+    width: 100% !important;
+}
+
+.link {
+    color: black !important;
+    text-decoration: none;
+}
+
+.bg(@color: rgb(39, 45, 48)) {
+    background-color: @color  !important;
+}
+
+.color-text(@color: #fff, @textDecoration: none) {
+    color: @color  !important;
+    text-decoration: @textDecoration  !important;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 12px 0 rgba(109, 109, 109, 0.5);
+    -webkit-box-shadow: 0 2px 12px 0 rgba(109, 109, 109, 0.5);
+}
+
+/** 新员工课程 开始*/
+
+.new-employee-course {
+    position: relative;
+    min-height: 100%;
+}
+
+.font-size {
+    font-size: 20px !important;
+}
+
+.course-top {
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 0 -20px;
+    padding: 0 20px;
+    overflow: hidden;
+    .font-size;
+    font-weight: bold;
+    .bg(#fff);
+    .box-shadow;
+
+    .top-nav {
+        padding: 20px;
+
+        &:first-child {
+            margin-top: 7px;
+        }
+
+        img {
+            width: 13px;
+            height: 17px;
+            vertical-align: middle;
+        }
+
+        span {
+            vertical-align: middle;
+        }
+    }
+
+    .txt-align {
+        text-align: right;
+    }
+}
+
+.course-centent {
+    padding: 100px 20px 130px 20px;
+}
+
+/** 新员工课程 结束*/

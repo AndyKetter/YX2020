@@ -1,0 +1,14 @@
+/* qianjun */
+.bgWhite{
+    background-color: white;
+}
+.h3-title{
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+    margin-top: 0;
+}
+/* 搜索框el-form-item长度自动 */
+.el-form--inline .el-form-item__label {
+    width: auto;
+}

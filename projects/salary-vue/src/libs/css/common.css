@@ -1,0 +1,621 @@
+﻿/* 公用css */
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.padding15 {
+    padding: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.tr {
+    text-align: right;
+}
+
+.mgt20 {
+    margin-top: 20px;
+}
+
+.mgt10 {
+    margin-top: 10px;
+}
+
+.mgt15 {
+    margin-top: 15px;
+}
+
+.mgl10 {
+    margin-left: 10px;
+}
+
+.mgr10 {
+    margin-right: 10px;
+}
+
+.mar6 {
+    margin-right: 6px;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content {
+    padding: 20px;
+}
+
+.color-0DD400 {
+    color: #0DD400 !important;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+.tbIconPhone {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+/* ximmin */
+
+.mar-no {
+    margin: 0 !important
+}
+
+.mar-all {
+    margin: 15px
+}
+
+.mar-top {
+    margin-top: 15px
+}
+
+.mar-btm {
+    margin-bottom: 15px
+}
+
+.mar-lft {
+    margin-left: 15px
+}
+
+.mar-rgt {
+    margin-right: 15px
+}
+
+.mar-hor {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.mar-ver {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.pad-no {
+    padding: 0 !important
+}
+
+.pad-all {
+    padding: 15px
+}
+
+.pad-top {
+    padding-top: 15px
+}
+
+.pad-btm {
+    padding-bottom: 15px
+}
+
+.pad-lft {
+    padding-left: 15px
+}
+
+.pad-rgt {
+    padding-right: 15px
+}
+
+.pad-hor {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.pad-ver {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+
+/*各文件类型图标*/
+
+.fileBox .filename {
+    display: inline-block;
+    background: url(../images/fileIco.png) no-repeat;
+    height: 32px;
+    vertical-align: bottom;
+    padding-left: 40px;
+    margin: 0px 8px;
+}
+
+.fileBox .doc,
+.fileBox .wps {
+    background-position: 0px -41px
+}
+
+.fileBox .ppt {
+    background-position: 0px -121px
+}
+
+.fileBox .excel {
+    background-position: 0px -81px
+}
+
+.fileBox .png {
+    background-position: 0px -201px
+}
+
+.fileBox .ps {
+    background-position: 0px -161px
+}
+
+.fileBox .rtf {
+    background-position: 0px -240px
+}
+
+.fileBox .txt {
+    background-position: 0px -280px
+}
+
+.fileBox .rar {
+    background-position: 0px -320px
+}
+
+.fileBox .pdf {
+    background-position: 0px -360px
+}
+
+.fileBox .jpg {
+    background-position: 0px -400px
+}
+
+.fileBox .gif {
+    background-position: 0px -440px
+}
+
+.fileBox .bmp {
+    background-position: 0px -480px
+}
+
+.fileBox .ai,
+.fileBox .eps {
+    background-position: 0px -520px
+}
+
+.fileBox .tif {
+    background-position: 0px -560px
+}
+
+.fileBox .exe {
+    background-position: 0px -600px
+}
+
+.fileBox .xml {
+    background-position: 0px -640px
+}
+
+.fileBox .ttf {
+    background-position: 0px -680px
+}
+
+.fileBox .dll {
+    background-position: 0px -720px
+}
+
+.fileBox .mp3 {
+    background-position: 0px -760px
+}
+
+.fileBox .avi {
+    background-position: 0px -800px
+}
+
+.fileBox .else {
+    background-position: 0px -840px
+}
+
+
+/**灰色背景的 公用弹框 start**/
+
+.grayBg .el-dialog {
+    /*专门用来定义公用弹框背景颜色*/
+    background-color: #f1f1f1 !important;
+}
+
+.whiteBox {
+    background-color: white;
+    border: 1px solid #c6ccdd;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+.pReset {
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #4377e6
+}
+
+.height26 {
+    line-height: 26px;
+    min-height: 26px
+}
+
+
+/**灰色背景的 公用弹框 end**/
+
+
+/**框架右侧主菜单区 start**/
+
+.guideList h4 {
+    display: inline-block;
+    border-bottom: 2px solid #38a0f4;
+    font-weight: normal;
+    padding-bottom: 2px;
+}
+
+.gList {
+    display: inline-block;
+    width: 220px;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    line-height: 50px;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.gList:hover {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gList a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    height: 50px;
+}
+
+.gList .txtBtn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.gList .txt {
+    display: inline-block;
+    padding-left: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.gList:hover {
+    border-color: #b2d3f3;
+}
+
+.gList:hover a {
+    color: #197de0;
+}
+
+.gList .newOpen {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    display: block;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 28px;
+    filter: opacity(0.3);
+    -webkit-filter: opacity(0.3)
+}
+
+.newOpen i {
+    display: inline-block;
+    background: url(../images/blankico.png) no-repeat;
+    width: 15px;
+    height: 15px;
+}
+
+.newOpen:hover {
+    filter: opacity(1);
+    -webkit-filter: opacity(1)
+}
+
+
+/* 26个字母所对应的颜色 */
+
+.a {
+    background-color: #1973fc
+}
+
+.b {
+    background-color: #03c684
+}
+
+.c {
+    background-color: #f07408
+}
+
+.d {
+    background-color: #fe883c
+}
+
+.e {
+    background-color: #ff5e5e
+}
+
+.f {
+    background-color: #1973fc
+}
+
+.g {
+    background-color: #78ae23
+}
+
+.h {
+    background-color: #1cbc86
+}
+
+.i {
+    background-color: #7e8792
+}
+
+.j {
+    background-color: #4caaeb
+}
+
+.k {
+    background-color: #ff5e5e
+}
+
+.l {
+    background-color: #1973fc
+}
+
+.m {
+    background-color: #68bd55
+}
+
+.n {
+    background-color: #1cbc86
+}
+
+.o {
+    background-color: #fe883c
+}
+
+.p {
+    background-color: #4caaeb
+}
+
+.q {
+    background-color: #f07408
+}
+
+.r {
+    background-color: #7e8792
+}
+
+.s {
+    background-color: #1973fc
+}
+
+.t {
+    background-color: #1cbc86
+}
+
+.u {
+    background-color: #ff5e5e
+}
+
+.v {
+    background-color: #4caaeb
+}
+
+.w {
+    background-color: #f07408
+}
+
+.x {
+    background-color: #78ae23
+}
+
+.y {
+    background-color: #1973fc
+}
+
+.z {
+    background-color: #03c684
+}
+
+
+/*新增颜色*/
+
+.rose {
+    background-color: #990000
+}
+
+
+/*导入导出按钮图标*/
+
+.cloud-uploadBtn i,
+.cloud-downloadBtn i {
+    filter: grayscale(100%);
+    width: 18px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.el-popper .cloud-uploadBtn i,
+.el-popper .cloud-downloadBtn i {
+    vertical-align: middle;
+    margin-right: 0px
+}
+
+.cloud-downloadBtn i {
+    background: url(../images/cloud-download.png) no-repeat;
+}
+
+.cloud-uploadBtn i {
+    background: url(../images/cloud-upload.png) no-repeat;
+}
+
+.cloud-uploadBtn:hover i,
+.cloud-downloadBtn:hover i,
+.cloud-uploadBtn:focus i,
+.cloud-downloadBtn:focus i {
+    filter: grayscale(0)
+}
+
+.visible-1440 {
+    display: none !important;
+}
+
+.hidden-1440 {
+    display: inline-block
+}
+
+@media (max-width:1440px) {
+    /* 人事调整项、人才引进 查询栏 */
+    .hidden-1440 {
+        display: none !important
+    }
+    .visible-1440 {
+        display: inline-block !important
+    }
+}
+
+
+/**框架右侧主菜单区 end**/
+
+
+/* qianjun */
+
+#pagination {
+    text-align: right;
+    padding: 18px 0
+}
+.name-title {
+    font-size: 16px;
+    display: inline-block;
+    margin: 15px 0 5px;
+    color: #666666;
+  }
+
+.width110 {
+    width: 110px !important
+}
+
+.width130 {
+    width: 130px !important
+}
+
+.width155 {
+    width: 155px !important;
+}
+
+.width170 {
+    width: 170px !important;
+}
+
+.deleteTxt>span {
+    color: #EF3838;
+}
+
+.deleteTxt.is-disabled>span {
+    color: #C0C4CC;
+}
+
+.a1 {
+    width: 160px !important
+}

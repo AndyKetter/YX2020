@@ -1,0 +1,35 @@
+/*基础薪资弹框*/
+/* .activeBgcolor {
+    
+    background-color: #e5e9f3;
+} */
+
+
+.textLft .height26:nth-child(2n+1) {
+    text-align: right
+}
+.underlineTxt{text-decoration: underline}
+.warnIcoBg{background: url(../images/dialogWarn.png) no-repeat left center;padding-left: 70px;margin-top: 25px}
+.warnIcoBg h2 {
+    font-weight: normal;
+    margin: 5px 0px
+}
+/*上传图片 横排展示*/
+.uploadLine .el-upload-list {
+    display: inline-block;vertical-align: top;margin-left: 5px;
+}
+
+.uploadLine .el-upload-list__item:first-child {
+    margin-top: 5px !important
+}
+
+.uploadLine .el-upload-list__item {
+    float: left;
+    width: auto!important;max-width: 200px;
+}
+.modifyTBn{margin-left: 20px!important;font-size: 16px!important;padding: 0px!important}
+/*给字体设置element公用的颜色*/
+.successTxt{color: #67C23A}
+.dangerTxt{color: #F56C6C}
+.blueTxt{color: #409EFF}
+.fontsize14 {font-size: 14px!important}

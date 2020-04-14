@@ -1,0 +1,52 @@
+#@SwitchHosts! {"url": null, "icon_idx": 0, "title": "\u5f00\u53d1\u73af\u5883"}
+
+# 这儿是公用 hosts，其内容会插入到各个方案最前面
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+10.0.8.252    gitlab.yubang168.cn
+10.0.8.252    mattermost.yubang168.cn
+
+10.0.8.245    yboa.yubang168.cn
+10.0.8.245    yboa.cs.yubang168.cn
+
+10.0.8.222    nexus.yubang168.cn
+
+10.0.8.201   email.yubang168.cn
+10.0.8.43    css.yubang168.cn
+10.0.8.43    js.yubang168.cn
+
+172.31.14.36 fusion.cs.hnyongxiong.com
+
+172.31.18.11  navi.yb-inc.com
+172.31.18.11  chat.yb-inc.com
+172.31.18.11  yapi.yb-inc.com
+172.31.18.11  file.yb-inc.com
+172.31.18.11  git.yb-inc.com
+
+172.31.18.242  yboa.dev.yubang168.cn
+
+
+# --------------------------------------------------
+
+# 开发环境

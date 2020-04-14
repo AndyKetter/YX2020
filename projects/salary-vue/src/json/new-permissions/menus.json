@@ -1,0 +1,204 @@
+[{
+    "code": "personalCenter",
+    "type": "menu",
+    "uri": "/personalCenter",
+    "method": "GET",
+    "name": "访问",
+    "menu": "个人中心"
+}, {
+    "code": "personal",
+    "type": "menu",
+    "uri": "/personalCenter/personal",
+    "method": "GET",
+    "name": "访问",
+    "menu": "我的"
+}, {
+    "code": "mySalary",
+    "type": "menu",
+    "uri": "/personalCenter/personal/mySalary",
+    "method": "GET",
+    "name": "访问",
+    "menu": "我的工资条"
+}, {
+    "code": "performanceQuery",
+    "type": "menu",
+    "uri": "/personalCenter/personal/performanceQuery",
+    "method": "GET",
+    "name": "访问",
+    "menu": "业绩查询"
+}, {
+    "code": "personnelSystem",
+    "type": "menu",
+    "uri": "/personnelSystem",
+    "method": "GET",
+    "name": "访问",
+    "menu": "人事系统"
+}, {
+    "code": "personnelBaseSalary",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelBaseSalary",
+    "method": "GET",
+    "name": "访问",
+    "menu": "人事基础薪资"
+}, {
+    "code": "noConfig",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelBaseSalary/noConfig",
+    "method": "GET",
+    "name": "访问",
+    "menu": "未配置基础薪资"
+}, {
+    "code": "summaryTables",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelBaseSalary/summaryTables",
+    "method": "GET",
+    "name": "访问",
+    "menu": "基础薪资总表"
+}, {
+    "code": "initSetup",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelBaseSalary/initSetup",
+    "method": "GET",
+    "name": "访问",
+    "menu": "基础薪资初始设置"
+}, {
+    "code": "personnelIncome",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelIncome",
+    "method": "GET",
+    "name": "访问",
+    "menu": "人事收入"
+}, {
+    "code": "subsidy",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelIncome/subsidy",
+    "method": "GET",
+    "name": "访问",
+    "menu": "人事收入项"
+}, {
+    "code": "incomeItemsSetting",
+    "type": "menu",
+    "uri": "/personnelSystem/personnelIncome/incomeItemsSetting",
+    "method": "GET",
+    "name": "访问",
+    "menu": "收入项设置"
+}, {
+    "code": "other",
+    "type": "menu",
+    "uri": "/personnelSystem/other",
+    "method": "GET",
+    "name": "访问",
+    "menu": "其它"
+}, {
+    "code": "fiveSocialDed",
+    "type": "menu",
+    "uri": "/personnelSystem/other/fiveSocialDed",
+    "method": "GET",
+    "name": "访问",
+    "menu": "五险一金"
+}, {
+    "code": "performanceDed",
+    "type": "menu",
+    "uri": "/personnelSystem/other/performanceDed",
+    "method": "GET",
+    "name": "访问",
+    "menu": "绩效工资"
+}, {
+    "code": "filialPietyFee",
+    "type": "menu",
+    "uri": "/personnelSystem/other/filialPietyFee",
+    "method": "GET",
+    "name": "访问",
+    "menu": "孝敬费管理"
+}, {
+    "code": "trainSubsidy",
+    "type": "menu",
+    "uri": "/personnelSystem/other/trainSubsidy",
+    "method": "GET",
+    "name": "访问",
+    "menu": "培训补助"
+}, {
+    "code": "administrativeSystem",
+    "type": "menu",
+    "uri": "/administrativeSystem",
+    "method": "GET",
+    "name": "访问",
+    "menu": "行政系统"
+}, {
+    "code": "administrativeDed",
+    "type": "menu",
+    "uri": "/administrativeSystem/administrativeDed",
+    "method": "GET",
+    "name": "访问",
+    "menu": "行政扣款项"
+}, {
+    "code": "dormitoryDed",
+    "type": "menu",
+    "uri": "/administrativeSystem/dormitoryDed",
+    "method": "GET",
+    "name": "访问",
+    "menu": "住宿扣款项"
+}, {
+    "code": "attendanceDed",
+    "type": "menu",
+    "uri": "/administrativeSystem/attendanceDed",
+    "method": "GET",
+    "name": "访问",
+    "menu": "考勤扣款项"
+}, {
+    "code": "financialSystem",
+    "type": "menu",
+    "uri": "/financialSystem",
+    "method": "GET",
+    "name": "访问",
+    "menu": "财务系统"
+}, {
+    "code": "dataSummary",
+    "type": "menu",
+    "uri": "/financialSystem/dataSummary",
+    "method": "GET",
+    "name": "访问",
+    "menu": "数据汇总台账"
+}, {
+    "code": "formulaManage",
+    "type": "menu",
+    "uri": "/financialSystem/formulaManage",
+    "method": "GET",
+    "name": "访问",
+    "menu": "绩效公式管理"
+}, {
+    "code": "loanPayManage",
+    "type": "menu",
+    "uri": "/financialSystem/loanPayManage",
+    "method": "GET",
+    "name": "访问",
+    "menu": "借支管理"
+}, {
+    "code": "personalTaxManage",
+    "type": "menu",
+    "uri": "/financialSystem/personalTaxManage",
+    "method": "GET",
+    "name": "访问",
+    "menu": "个税管理"
+}, {
+    "code": "publicSystem",
+    "type": "menu",
+    "uri": "/publicSystem",
+    "method": "GET",
+    "name": "访问",
+    "menu": "公共系统"
+}, {
+    "code": "adjustMoneyManage",
+    "type": "menu",
+    "uri": "/publicSystem/adjustMoneyManage",
+    "method": "GET",
+    "name": "访问",
+    "menu": "调整款项管理"
+}, {
+    "code": "specialPerformance",
+    "type": "menu",
+    "uri": "/publicSystem/specialPerformance",
+    "method": "GET",
+    "name": "访问",
+    "menu": "特殊绩效"
+}]

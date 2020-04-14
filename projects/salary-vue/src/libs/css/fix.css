@@ -1,0 +1,242 @@
+/* 自定义修复css */
+/* mohan */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e7e7e7 !important;
+    overflow-x: hidden;
+    height: 100% !important;
+    /* 指定windows,mac下面的字体,设置Linux系统字体-使用文泉雅黑 */
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+#app,
+.home {
+    height: 100%;
+}
+
+.page-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 15px;
+}
+
+.page-content>.row {
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+.el-color-dropdown .el-color-dropdown__main-wrapper {
+    display: none;
+}
+
+.el-color-dropdown .el-input__inner {
+    display: none !important;
+}
+
+/* element-ui表格tr统一样式 */
+.el-table__row {
+    cursor: pointer;
+}
+
+.el-color-dropdown {
+    width: 255px !important;
+}
+
+/* 修复table头部select的下拉icon样式优化 */
+.el-table th .el-select div,
+.el-table th div {
+    height: 32px !important;
+    line-height: 32px !important;
+}
+
+.el-table th .el-select {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.selectRepairIcon .el-input__suffix-inner {
+    padding-right: 10px !important;
+}
+
+/* 修复table中el-tooltip不换行无线加宽问题 */
+.el-tooltip__popper {
+    max-width: 400px !important;
+    line-height: 180% !important;
+}
+
+/* 修改选色默认显示状态去除X显示 */
+.el-color-picker__empty {
+    display: none !important;
+}
+
+/* qianjun */
+/* 表格线颜色 */
+.el-table {
+    color: #333 !important;
+}
+
+.el-table--border td,
+.el-table th.is-leaf {
+    border-color: #c6ccdd !important;
+}
+
+.el-table td,
+.el-table th.is-leaf {
+    border-color: #c6ccdd !important;
+}
+
+.el-table--border td,
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-color: #c6ccdd !important;
+}
+
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+    background-color: #c6ccdd !important;
+}
+
+.el-table--border,
+.el-table--group {
+    border-color: #c6ccdd !important;
+}
+
+.el-table__fixed-right::before,
+.el-table__fixed::before {
+    background-color: #c6ccdd !important;
+}
+
+/* 输入框边框颜色 */
+.el-input .el-input__inner,
+.el-radio .el-radio__inner,
+.el-checkbox .el-checkbox__inner {
+    border: 1px solid #c6ccdd;
+}
+
+.el-textarea__inner {
+    border: 1px solid #c6ccdd !important;
+}
+
+.wallfall .el-card__header,
+.box-card2 .el-card__header {
+    background: #e5e9f3;
+}
+
+/* InputNumber 计数器输入框显示居左 */
+.el-input-number input {
+    text-align: left !important;
+}
+
+/* 弹出框边框颜色 */
+.el-popover {
+    border-color: #c6ccdd !important;
+}
+
+.el-popper[x-placement^=top] .popper__arrow {
+    border-top-color: #c6ccdd !important;
+}
+
+.el-popper[x-placement^=bottom] .popper__arrow {
+    border-bottom-color: #c6ccdd !important;
+}
+
+/* 表头字体颜色 */
+.el-table .el-table__body {
+    font-size: 13px !important;
+}
+
+.el-table thead {
+    color: #60646c !important;
+}
+
+/* 弹窗dialog的padding */
+.el-dialog__body {
+    padding: 0px 20px 15px !important;
+}
+
+
+
+/* taozi */
+.ev-title {
+    width: 140px;
+}
+
+.workNum {
+    letter-spacing: 30px;
+}
+
+.cheng {
+    background-color: #2e76ee;
+}
+
+.bu {
+    background-color: #ff5353;
+}
+
+.lian {
+    background-color: #1fcf87;
+}
+
+.fontiocn {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center
+}
+
+/* lxm */
+/*表格某一行设置高亮颜色*/
+.el-table .warning-row {
+    background: #f1f7ff !important;
+}
+
+.el-table .warning-row td {
+    border-bottom-color: #2e76ee !important;
+    border-top: 1px solid #2e76ee !important;
+    color: rgb(46, 138, 228);
+}
+
+/*表格上方的温馨提示，栗子：CaseProgress.vue:案件跟进进度情况*/
+.el-table-warnning {
+    background-color: #ffdec1;
+    border: 1px solid #ffcaa3;
+    height: 36px;
+    line-height: 36px;
+    color: #fe7837;
+    text-align: center
+}
+
+/*修复我的系统--申诉记录--管理员回复弹框有外滚动条*/
+.martopDialog .el-dialog {
+    margin-top: 50px !important
+}
+
+/*修复复弹框label文字太多换行的样式*/
+.longTxt .el-form-item__label {
+    line-height: 20px !important
+}
+
+/*导出弹框文字样式优化*/
+.downloadModal .el-alert--warning.is-light .el-alert__description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #60646C
+}
+
+.el-breadcrumb__item:nth-last-child(2) .el-breadcrumb__separator {
+    display: none
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner {
+    color: #409EFF !important;
+    padding-left: 5px;
+    cursor: pointer !important;
+}

@@ -1,0 +1,84 @@
+/* 永雄定制css */
+/* mohan */
+html,
+body,
+#app {
+    /* 指定windows,mac下面的字体,设置Linux系统字体-使用文泉雅黑 */
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* element-ui表格tr统一加手指样式 */
+.el-table__row {
+    cursor: pointer;
+}
+
+/* 修复table中el-tooltip不换行无线加宽问题 */
+.el-tooltip__popper {
+    max-width: 400px !important;
+    line-height: 180% !important;
+}
+
+/* 表格线颜色 */
+.el-table {
+    color: #333 !important;
+}
+
+.el-table td,
+.el-table th.is-leaf,
+.el-table--border td {
+    border-color: #c6ccdd !important;
+}
+
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-color: #c6ccdd !important;
+}
+
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+    background-color: #c6ccdd !important;
+}
+
+.el-table--border,
+.el-table--group {
+    border-color: #c6ccdd !important;
+}
+
+.el-table__fixed-right::before,
+.el-table__fixed::before {
+    background-color: #c6ccdd !important;
+}
+
+/* 输入框边框颜色 */
+.el-input .el-input__inner,
+.el-radio .el-radio__inner,
+.el-checkbox .el-checkbox__inner {
+    border: 1px solid #c6ccdd;
+}
+
+.wallfall .el-card__header,
+.box-card2 .el-card__header {
+    background: #e5e9f3;
+}
+
+/* 弹出框边框颜色 */
+.el-popover {
+    border-color: #c6ccdd !important;
+}
+
+.el-popper[x-placement^=top] .popper__arrow {
+    border-top-color: #c6ccdd !important;
+}
+
+.el-popper[x-placement^=bottom] .popper__arrow {
+    border-bottom-color: #c6ccdd !important;
+}
+
+/* 表头字体颜色 */
+.el-table thead {
+    color: #60646c !important;
+}
